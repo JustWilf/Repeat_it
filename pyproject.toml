@@ -1,7 +1,7 @@
 [project]
 name = "Repeat_it"
 version = "0.0.1"
-description = "The Repeat it! service is designed to facilitate smooth communication between students and tutors"
+description = "Telegram bot for comfortable communication between students and teachers - the first project by one almost-coder."
 readme = "README.md"
 requires-python = ">=3.14"
 
@@ -21,7 +21,6 @@ dev = [
     "uvloop>=0.22.1,<0.23.0",
     "pydantic-settings>=2.14.2,<3.0.0",
     "alembic>=1.18.4,<2.0.0",
-    "sqlalchemy>=2.0.51,<3.0.0",
     "orjson>=3.11.9,<4.0.0",
     "asyncio>=4.0.0,<5.0.0",
     "whenever>=0.10.0",
