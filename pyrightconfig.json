@@ -1,0 +1,29 @@
+{
+  "include": ["src", "main.py"],
+
+  "exclude": [
+    "**/__pycache__",
+    "**/node_modules",
+    "build",
+    ".venv"
+  ],
+
+  "ignore": ["src/legacy"],
+
+  "strict": ["src/app/core"],
+
+  "typeCheckingMode": "standard",
+
+  "pythonVersion": "3.14",
+  "pythonPlatform": "Linux",
+
+  "venvPath": ".",
+  "venv": ".venv",
+
+  "extraPaths": ["src"],
+
+  "stubPath": "typings",
+
+  "reportMissingTypeStubs": "warning",
+  "reportUnnecessaryTypeIgnoreComment": "error"
+}

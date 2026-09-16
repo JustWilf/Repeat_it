@@ -1,0 +1,30 @@
+[project]
+name = "Repeat_it"
+version = "0.0.1"
+description = "The Repeat it! service is designed to facilitate smooth communication between students and tutors"
+readme = "README.md"
+requires-python = ">=3.14"
+
+[dependency-groups]
+cosmetic = [
+    "pyright>=1.1.410,<2.0.0",
+    "ruff>=0.15.18,<0.16.0",
+]
+dev = [
+    "asyncpg>=0.31.0,<0.32.0",
+    "httpx>=0.28.1,<0.29.0",
+    "hypothesis>=6.155.7,<7.0.0",
+    "pytest-asyncio>=1.4.0,<2.0.0",
+    "typing>=3.10.0.0,<4.0.0.0",
+    "rich>=15.0.0,<16.0.0",
+    "taskiq>=0.12.4,<0.13.0",
+    "uvloop>=0.22.1,<0.23.0",
+    "pydantic-settings>=2.14.2,<3.0.0",
+    "alembic>=1.18.4,<2.0.0",
+    "sqlalchemy>=2.0.51,<3.0.0",
+    "orjson>=3.11.9,<4.0.0",
+    "asyncio>=4.0.0,<5.0.0",
+    "whenever>=0.10.0",
+    "stamina>=26.1.0",
+    "python-dotenv>=1.2.3",
+]
